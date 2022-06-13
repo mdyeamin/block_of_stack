@@ -1,0 +1,35 @@
+.carousel {
+    width:100%;
+    height:500px;
+    margin: auto;
+  }
+  .logo-sizing{
+    width:40px;
+    height:auto;
+  }
+
+.slide-color{
+    height:100vh;
+background-color: #24282c;
+}
+
+.align{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .carousel-control-prev, .carousel-control-next  {
+    opacity: 0 !important;
+    display: none !important;
+    display:inline-block !important;
+} */
+
+
+
+  @media (max-width: 900px) {
+    .carousel {
+      width:auto;
+      height:auto;
+    }
+}

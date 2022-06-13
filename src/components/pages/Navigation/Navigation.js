@@ -1,21 +1,33 @@
 import React from "react";
-import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap";
+import {Navbar, Container, Nav /* NavDropdown */} from "react-bootstrap";
+import logo from "../../../img/logo/logo.png";
 
 const Navigation = () => {
   return (
     <>
       <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
         <Container>
-          <Navbar.Brand href='#home'>
-            <img
-              src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png'
+          <Navbar.Brand href='/'>
+            {/* <img
+             
+              src={logo}
               width='30'
               height='30'
               className='d-inline-block align-top'
               alt='React Bootstrap logo'
-            />
+            /> */}
+            <div className='App'>
+              <header>
+                <img
+                  src={logo}
+                  
+                  className='App-logo logo-sizing'
+                  alt='logo'
+                />
+              </header>
+            </div>
           </Navbar.Brand>
-          <Navbar.Brand href='#home'>Block of Stack</Navbar.Brand>
+          <Navbar.Brand href='/'>Block of Stack</Navbar.Brand>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='me-auto'>
@@ -32,9 +44,9 @@ const Navigation = () => {
               </NavDropdown> */}
             </Nav>
             <Nav>
-              <Nav.Link href='#deets'>More deets</Nav.Link>
+              <Nav.Link href='#deets'>Courses</Nav.Link>
               <Nav.Link eventKey={2} href='#memes'>
-                Dank memes
+                Resources
               </Nav.Link>
             </Nav>
             <img
