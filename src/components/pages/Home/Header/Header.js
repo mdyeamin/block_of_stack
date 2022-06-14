@@ -13,13 +13,13 @@ const Header = () => {
       {
         <Carousel fade controls={false} className='slide-color'>
           {/***************** first slide  *****************/}
-          <Carousel.Item className='slide-color'>
+          <Carousel.Item>
             {/* <img
               className='d-block w-100'
               src={slider1}
               alt='First slide'
             /> */}
-            <div className='container-md'>
+            <div className='container'>
               {""}
               <Row>
                 <Col md={8} xs={12}>
@@ -40,7 +40,7 @@ const Header = () => {
           </Carousel.Item>
 
           {/***************** secund slide *****************/}
-          <Carousel.Item className='slide-color'>
+          <Carousel.Item>
             {/* <img className='d-block w-100'
               src={slider2}
               alt='Second slide' /> */}
@@ -65,7 +65,7 @@ const Header = () => {
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           {/***************** third slide  *****************/}
-          <Carousel.Item className='slide-color'>
+          <Carousel.Item>
             {/*  <img
               className='d-block w-100 '
               src={slider3}
@@ -92,7 +92,7 @@ const Header = () => {
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           {/***************** fourth slide  *****************/}
-          <Carousel.Item className='slide-color'>
+          <Carousel.Item>
             {/*  <img
               className='d-block w-100 '
               src={slider3}
@@ -119,7 +119,7 @@ const Header = () => {
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           {/***************** fifth slide  *****************/}
-          <Carousel.Item className='slide-color'>
+          <Carousel.Item>
             {/*  <img
               className='d-block w-100 '
               src={slider3}
@@ -146,7 +146,7 @@ const Header = () => {
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           {/***************** sixth slide  *****************/}
-          <Carousel.Item className='slide-color'>
+          <Carousel.Item>
             {/*  <img
               className='d-block w-100 '
               src={slider3}
