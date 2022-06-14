@@ -50,7 +50,8 @@ const Navigation = () => {
                   to='/courses'
                   className={({isActive}) =>
                     isActive ? "active" : "nonActive"
-                  } style={{textDecoration: "none"}}
+                  }
+                  style={{textDecoration: "none"}}
                 >
                   Courses
                 </NavLink>
@@ -60,12 +61,23 @@ const Navigation = () => {
                   to='resources'
                   className={({isActive}) =>
                     isActive ? "active" : "nonActive"
-                  } style={{textDecoration: "none"}}
+                  }
+                  style={{textDecoration: "none"}}
                 >
                   Resources
                 </NavLink>
               </Nav.Link>
-              <Nav.Link eventKey={3}>App</Nav.Link>
+              <Nav.Link eventKey={3}>
+                <NavLink
+                  to='/classes'
+                  className={({isActive}) =>
+                    isActive ? "active" : "nonActive"
+                  }
+                  style={{textDecoration: "none"}}
+                >
+                  Classes
+                </NavLink>
+              </Nav.Link>
             </Nav>
             <img
               src='https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/179147689_1191143821334064_332752836185178183_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=S4fFKQaULQUAX8-G3hG&tn=otq2IQjy5H9wdSX3&_nc_ht=scontent.fdac5-2.fna&oh=00_AT93FEw4DARfA0tCLsMBNE5uhEYzUOcmJZK4oCMRCDUcpA&oe=62CB9451'

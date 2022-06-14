@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Courses from "./components/pages/Cources/Courses";
 import Resources from "./components/pages/Resources/Resources";
 import Navigation from "./components/pages/Navigation/Navigation";
+import Classes from "./components/pages/Classes/Classes";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 
         <Route path='courses' element={<Courses />} />
         <Route path='resources' element={<Resources />} />
+        <Route path='classes' element={<Classes />} />
       </Routes>
     </div>
   );

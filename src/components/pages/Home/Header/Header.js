@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Carousel,
-  Row,
-  Col ,
-  
-} from "react-bootstrap";
+import {Carousel, Row, Col} from "react-bootstrap";
 import slide1 from "../../../../img/slider/slide1.png";
 import slide2 from "../../../../img/slider/slide2.png";
 import slide3 from "../../../../img/slider/slide3.png";
@@ -20,7 +15,7 @@ const Header = () => {
           {/***************** first slide  *****************/}
           <Carousel.Item className='slide-color'>
             {/* <img
-              className='fluidd-block w-100'
+              className='d-block w-100'
               src={slider1}
               alt='First slide'
             /> */}
@@ -33,7 +28,7 @@ const Header = () => {
                 <Col md={4} xs={12}>
                   <p className='text-light align'>
                     <img
-                      className='fluidd-block w-100'
+                      className='d-block w-100'
                       src={slide1}
                       alt='First slide'
                     />
@@ -59,7 +54,7 @@ const Header = () => {
                 <Col md={4} xs={12}>
                   <p className='text-light align'>
                     <img
-                      className='fluidd-block w-100'
+                      className='d-block w-100'
                       src={slide2}
                       alt='First slide'
                     />
@@ -86,7 +81,7 @@ const Header = () => {
                 <Col md={4} xs={12}>
                   <p className='text-light align'>
                     <img
-                      className='fluidd-block w-100'
+                      className='d-block w-100'
                       src={slide3}
                       alt='First slide'
                     />
@@ -113,7 +108,7 @@ const Header = () => {
                 <Col md={4} xs={12}>
                   <p className='text-light align'>
                     <img
-                      className='fluidd-block w-100'
+                      className='d-block w-100'
                       src={slide4}
                       alt='First slide'
                     />
@@ -140,7 +135,7 @@ const Header = () => {
                 <Col md={4} xs={12}>
                   <p className='text-light align'>
                     <img
-                      className='fluidd-block w-100'
+                      className='d-block w-100'
                       src={slide5}
                       alt='First slide'
                     />
@@ -167,7 +162,7 @@ const Header = () => {
                 <Col md={4} xs={12}>
                   <p className='text-light align'>
                     <img
-                      className='fluidd-block w-100'
+                      className='d-block w-100'
                       src={slide6}
                       alt='First slide'
                     />
