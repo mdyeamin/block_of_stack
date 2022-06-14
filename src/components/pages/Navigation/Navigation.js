@@ -1,7 +1,8 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import {Navbar, Container, Nav /* NavDropdown */} from "react-bootstrap";
 import logo from "../../../img/logo/logo.png";
+import "./Navigation.css";
 
 const Navigation = () => {
   return (
@@ -45,15 +46,26 @@ const Navigation = () => {
             </Nav>
             <Nav>
               <Nav.Link>
-                <Link to='/courses' style={{textDecoration: "none"}}>
+                <NavLink
+                  to='/courses'
+                  className={({isActive}) =>
+                    isActive ? "active" : "nonActive"
+                  } style={{textDecoration: "none"}}
+                >
                   Courses
-                </Link>
+                </NavLink>
               </Nav.Link>
               <Nav.Link eventKey={2}>
-                <Link to='resources' style={{textDecoration: "none"}}>
+                <NavLink
+                  to='resources'
+                  className={({isActive}) =>
+                    isActive ? "active" : "nonActive"
+                  } style={{textDecoration: "none"}}
+                >
                   Resources
-                </Link>
+                </NavLink>
               </Nav.Link>
+              <Nav.Link eventKey={3}>App</Nav.Link>
             </Nav>
             <img
               src='https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/179147689_1191143821334064_332752836185178183_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=S4fFKQaULQUAX8-G3hG&tn=otq2IQjy5H9wdSX3&_nc_ht=scontent.fdac5-2.fna&oh=00_AT93FEw4DARfA0tCLsMBNE5uhEYzUOcmJZK4oCMRCDUcpA&oe=62CB9451'
