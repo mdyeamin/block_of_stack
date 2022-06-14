@@ -2,8 +2,8 @@ import React from "react";
 import {
   Carousel,
   Row,
-  Col /* CarouselItem */,
-  Container,
+  Col ,
+  
 } from "react-bootstrap";
 import slide1 from "../../../../img/slider/slide1.png";
 import slide2 from "../../../../img/slider/slide2.png";
@@ -24,7 +24,7 @@ const Header = () => {
               src={slider1}
               alt='First slide'
             /> */}
-            <div className='container'>
+            <div className='container-md'>
               {""}
               <Row>
                 <Col md={8} xs={12}>

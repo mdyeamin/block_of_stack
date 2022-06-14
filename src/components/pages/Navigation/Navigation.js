@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import {Navbar, Container, Nav /* NavDropdown */} from "react-bootstrap";
 import logo from "../../../img/logo/logo.png";
 
@@ -18,16 +19,15 @@ const Navigation = () => {
             /> */}
             <div className='App'>
               <header>
-                <img
-                  src={logo}
-                  
-                  className='App-logo logo-sizing'
-                  alt='logo'
-                />
+                <Link to='/'>
+                  <img src={logo} className='App-logo logo-sizing' alt='logo' />
+                </Link>
               </header>
             </div>
           </Navbar.Brand>
-          <Navbar.Brand href='/'>Block of Stack</Navbar.Brand>
+          <Link to='/' style={{textDecoration: "none"}}>
+            <Navbar.Brand>Block of Stack</Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='me-auto'>
@@ -44,9 +44,15 @@ const Navigation = () => {
               </NavDropdown> */}
             </Nav>
             <Nav>
-              <Nav.Link href='#deets'>Courses</Nav.Link>
-              <Nav.Link eventKey={2} href='#memes'>
-                Resources
+              <Nav.Link>
+                <Link to='/courses' style={{textDecoration: "none"}}>
+                  Courses
+                </Link>
+              </Nav.Link>
+              <Nav.Link eventKey={2}>
+                <Link to='resources' style={{textDecoration: "none"}}>
+                  Resources
+                </Link>
               </Nav.Link>
             </Nav>
             <img
