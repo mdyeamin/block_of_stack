@@ -1,6 +1,6 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import Home from "./components/pages/Home/Home";
+import Home from "./components/pages/Home/Home/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {

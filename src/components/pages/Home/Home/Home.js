@@ -1,6 +1,6 @@
 import React from "react";
-import Navigation from "../Navigation/Navigation";
-import Header from "./Header/Header";
+import Navigation from "../../Navigation/Navigation";
+import Header from "../Header/Header";
 
 
 const Home = () => {

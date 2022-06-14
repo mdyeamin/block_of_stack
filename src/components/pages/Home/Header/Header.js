@@ -1,14 +1,22 @@
 import React from "react";
-import {Carousel, Row, Col /* CarouselItem */} from "react-bootstrap";
-/* import slider1 from "../../../../img/slider/slide1.jpg";
-import slider2 from "../../../../img/slider/slide2.jpg";
-import slider3 from "../../../../img/slider/slide3.jpg"; */
+import {
+  Carousel,
+  Row,
+  Col /* CarouselItem */,
+  Container,
+} from "react-bootstrap";
+import slide1 from "../../../../img/slider/slide1.png";
+import slide2 from "../../../../img/slider/slide2.png";
+import slide3 from "../../../../img/slider/slide3.png";
+import slide4 from "../../../../img/slider/slide4.png";
+import slide5 from "../../../../img/slider/slide5.png";
+import slide6 from "../../../../img/slider/slide6.png";
 import "./Header.css";
 const Header = () => {
   return (
     <div>
       {
-        <Carousel fade controls={false}>
+        <Carousel fade controls={false} className='slide-color'>
           {/***************** first slide  *****************/}
           <Carousel.Item className='slide-color'>
             {/* <img
@@ -16,36 +24,45 @@ const Header = () => {
               src={slider1}
               alt='First slide'
             /> */}
-            <div>
+            <div className='container'>
               {""}
               <Row>
-                <Col md={6} xs={12}>
+                <Col md={8} xs={12}>
                   <h3 className='text-light align'>First slide label</h3>
                 </Col>
-                <Col md={6} xs={12}>
+                <Col md={4} xs={12}>
                   <p className='text-light align'>
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    <img
+                      className='fluidd-block w-100'
+                      src={slide1}
+                      alt='First slide'
+                    />
                   </p>
                 </Col>
               </Row>
             </div>
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
+
           {/***************** secund slide *****************/}
           <Carousel.Item className='slide-color'>
             {/* <img className='d-block w-100'
               src={slider2}
               alt='Second slide' /> */}
 
-            <div>
+            <div className='container'>
               {" "}
               <Row>
-                <Col md={6} xs={12}>
+                <Col md={8} xs={12}>
                   <h3 className='text-light align'>Second slide label</h3>
                 </Col>
-                <Col md={6} xs={12}>
+                <Col md={4} xs={12}>
                   <p className='text-light align'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <img
+                      className='fluidd-block w-100'
+                      src={slide2}
+                      alt='First slide'
+                    />
                   </p>
                 </Col>
               </Row>
@@ -60,16 +77,19 @@ const Header = () => {
               alt='Third slide'
             /> */}
 
-            <div>
+            <div className='container'>
               {""}
               <Row>
-                <Col md={6} xs={12}>
+                <Col md={8} xs={12}>
                   <h3 className='text-light align'>Third slide label</h3>
                 </Col>
-                <Col md={6} xs={12}>
+                <Col md={4} xs={12}>
                   <p className='text-light align'>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
+                    <img
+                      className='fluidd-block w-100'
+                      src={slide3}
+                      alt='First slide'
+                    />
                   </p>
                 </Col>
               </Row>
@@ -84,16 +104,19 @@ const Header = () => {
               alt='fourth slide'
             /> */}
 
-            <div>
+            <div className='container'>
               {" "}
               <Row>
-                <Col md={6} xs={12}>
+                <Col md={8} xs={12}>
                   <h3 className='text-light align'>Fourth slide label</h3>
                 </Col>
-                <Col md={6} xs={12}>
+                <Col md={4} xs={12}>
                   <p className='text-light align'>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
+                    <img
+                      className='fluidd-block w-100'
+                      src={slide4}
+                      alt='First slide'
+                    />
                   </p>
                 </Col>
               </Row>
@@ -108,16 +131,19 @@ const Header = () => {
               alt='fifth slide'
             /> */}
 
-            <div>
+            <div className='container'>
               {" "}
               <Row>
-                <Col md={6} xs={12}>
+                <Col md={8} xs={12}>
                   <h3 className='text-light align'>Fifth slide label</h3>
                 </Col>
-                <Col md={6} xs={12}>
+                <Col md={4} xs={12}>
                   <p className='text-light align'>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
+                    <img
+                      className='fluidd-block w-100'
+                      src={slide5}
+                      alt='First slide'
+                    />
                   </p>
                 </Col>
               </Row>
@@ -132,16 +158,19 @@ const Header = () => {
               alt='sixth slide'
             /> */}
 
-            <div>
+            <div className='container'>
               {" "}
               <Row>
-                <Col md={6} xs={12}>
+                <Col md={8} xs={12}>
                   <h3 className='text-light align'>Sixth slide label</h3>
                 </Col>
-                <Col md={6} xs={12}>
+                <Col md={4} xs={12}>
                   <p className='text-light align'>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
+                    <img
+                      className='fluidd-block w-100'
+                      src={slide6}
+                      alt='First slide'
+                    />
                   </p>
                 </Col>
               </Row>
