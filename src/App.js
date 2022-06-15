@@ -8,6 +8,7 @@ import Resources from "./components/pages/Resources/Resources";
 import Navigation from "./components/pages/Navigation/Navigation";
 import Classes from "./components/pages/Classes/Classes";
 
+
 function App() {
   return (
     <div className='App'>

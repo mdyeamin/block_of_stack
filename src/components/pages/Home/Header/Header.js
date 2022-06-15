@@ -1,5 +1,5 @@
 import React from "react";
-import {Carousel, Row, Col} from "react-bootstrap";
+import {Carousel, Row, Col, Button} from "react-bootstrap";
 import slide1 from "../../../../img/slider/slide1.png";
 import slide2 from "../../../../img/slider/slide2.png";
 import slide3 from "../../../../img/slider/slide3.png";
@@ -7,6 +7,7 @@ import slide4 from "../../../../img/slider/slide4.png";
 import slide5 from "../../../../img/slider/slide5.png";
 import slide6 from "../../../../img/slider/slide6.png";
 import "./Header.css";
+
 const Header = () => {
   return (
     <div>
@@ -22,11 +23,16 @@ const Header = () => {
             <div className='container'>
               {""}
               <Row>
-                <Col md={8} xs={12}>
-                  <h3 className='text-light align'>First slide label</h3>
+                <Col md={8} xs={12} className='align'>
+                  <div>
+                    <h3 className='text-light'>
+                      First slide label carusal item
+                    </h3>
+                    <Button variant='light'>Enroll</Button>
+                  </div>
                 </Col>
-                <Col md={4} xs={12}>
-                  <p className='text-light align'>
+                <Col md={4} xs={12} className='align'>
+                  <p>
                     <img
                       className='d-block w-100'
                       src={slide1}
@@ -48,11 +54,16 @@ const Header = () => {
             <div className='container'>
               {" "}
               <Row>
-                <Col md={8} xs={12}>
-                  <h3 className='text-light align'>Second slide label</h3>
+                <Col md={8} xs={12} className='align'>
+                  <div>
+                    <h3 className='text-light'>
+                      Second slide label carusal item
+                    </h3>
+                    <Button variant='light'>Enroll</Button>
+                  </div>
                 </Col>
-                <Col md={4} xs={12}>
-                  <p className='text-light align'>
+                <Col md={4} xs={12} className='align'>
+                  <p>
                     <img
                       className='d-block w-100'
                       src={slide2}
@@ -75,11 +86,16 @@ const Header = () => {
             <div className='container'>
               {""}
               <Row>
-                <Col md={8} xs={12}>
-                  <h3 className='text-light align'>Third slide label</h3>
+                <Col md={8} xs={12} className='align'>
+                  <div>
+                    <h3 className='text-light'>
+                      Third slide label carusal item
+                    </h3>
+                    <Button variant='light'>Enroll</Button>
+                  </div>
                 </Col>
-                <Col md={4} xs={12}>
-                  <p className='text-light align'>
+                <Col md={4} xs={12} className='align'>
+                  <p>
                     <img
                       className='d-block w-100'
                       src={slide3}
@@ -102,11 +118,16 @@ const Header = () => {
             <div className='container'>
               {" "}
               <Row>
-                <Col md={8} xs={12}>
-                  <h3 className='text-light align'>Fourth slide label</h3>
+                <Col md={8} xs={12} className='align'>
+                  <div>
+                    <h3 className='text-light '>
+                      Fourth slide label carusal item
+                    </h3>
+                    <Button variant='light'>Enroll</Button>
+                  </div>
                 </Col>
-                <Col md={4} xs={12}>
-                  <p className='text-light align'>
+                <Col md={4} xs={12} className='align'>
+                  <p>
                     <img
                       className='d-block w-100'
                       src={slide4}
@@ -129,11 +150,16 @@ const Header = () => {
             <div className='container'>
               {" "}
               <Row>
-                <Col md={8} xs={12}>
-                  <h3 className='text-light align'>Fifth slide label</h3>
+                <Col md={8} xs={12} className='align'>
+                  <div>
+                    <h3 className='text-light '>
+                      Fifth slide label carusal item
+                    </h3>
+                    <Button variant='light'>Enroll</Button>
+                  </div>
                 </Col>
-                <Col md={4} xs={12}>
-                  <p className='text-light align'>
+                <Col md={4} xs={12} className='align'>
+                  <p>
                     <img
                       className='d-block w-100'
                       src={slide5}
@@ -156,11 +182,16 @@ const Header = () => {
             <div className='container'>
               {" "}
               <Row>
-                <Col md={8} xs={12}>
-                  <h3 className='text-light align'>Sixth slide label</h3>
+                <Col md={8} xs={12} className='align'>
+                  <div>
+                    <h3 className='text-light '>
+                      Sixth slide label carusal item
+                    </h3>
+                    <Button variant='light'>Enroll</Button>
+                  </div>
                 </Col>
-                <Col md={4} xs={12}>
-                  <p className='text-light align'>
+                <Col md={4} xs={12} className='align'>
+                  <p>
                     <img
                       className='d-block w-100'
                       src={slide6}

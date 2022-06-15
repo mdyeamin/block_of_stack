@@ -19,7 +19,9 @@ background-color: #24282c;
   justify-content: space-around;
   align-items: center;
 }
-
+.enroll{
+  align-items: left ;
+}
 @media (max-width: 900px) {
   .slide-color{
 height: 95vh;
@@ -27,8 +29,6 @@ height: 95vh;
   .align{
     height: 40vh;
   }
-  
-  
 }
  /*  @media (max-width: 900px) {
     .carousel {

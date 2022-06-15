@@ -3,15 +3,15 @@ import Header from "../Header/Header";
 import CourseAbout from "../CourseAbout/CourseAbout";
 import ManageEnroll from "../ManageEnroll/ManageEnroll";
 import CourseDetails from "../CourseDetails/CourseDetails";
-import CourseAboutAsk from "../CourseAboutAsk/CourseAboutAsk"
+import CourseAboutAsk from "../CourseAboutAsk/CourseAboutAsk";
 const Home = () => {
   return (
     <div>
       <Header />
-      <ManageEnroll />
+      {/* <ManageEnroll /> */}
       <CourseAbout />
-      <CourseDetails />
-      <CourseAboutAsk/>
+      {/*  <CourseDetails />
+      <CourseAboutAsk/> */}
     </div>
   );
 };
