@@ -1,0 +1,38 @@
+[
+    {
+        "title":"First slide label carusal item",
+        "path":"checkout",
+        "img":"https://i.ibb.co/gt8WTwC/slide1.png",
+        "id":"1"
+    },
+    {
+        "title":"Second slide label carusal item",
+        "path":"checkout",
+        "img":"https://i.ibb.co/tJR1SKm/slide2.png",
+        "id":"2"
+    },
+    {
+        "title":"Third slide label carusal item",
+        "path":"checkout",
+        "img":"https://i.ibb.co/WHdd0D6/slide3.png",
+        "id":"3"
+    },
+    {
+        "title":"Fourth slide label carusal item",
+        "path":"checkout",
+        "img":"https://i.ibb.co/DwpzMqg/slide4.png",
+        "id":"4"
+    },
+    {
+        "title":"Ffith slide label carusal item",
+        "path":"checkout",
+        "img":"https://i.ibb.co/gTVVQFP/slide5.png",
+        "id":"5"
+    },
+    {
+        "title":"Sixth slide label carusal item",
+        "path":"checkout",
+        "img":"https://i.ibb.co/SPkrPqt/slide6.png",
+        "id":"6"
+    }
+]
