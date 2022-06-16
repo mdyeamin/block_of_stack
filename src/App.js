@@ -7,7 +7,7 @@ import Courses from "./components/pages/Cources/Courses";
 import Resources from "./components/pages/Resources/Resources";
 import Navigation from "./components/pages/Navigation/Navigation";
 import Classes from "./components/pages/Classes/Classes";
-
+import EnrollNow from "./components/pages/EnrollNow/EnrollNow";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <Route path='courses' element={<Courses />} />
         <Route path='resources' element={<Resources />} />
         <Route path='classes' element={<Classes />} />
+        <Route path='checkout' element={<EnrollNow />} />
       </Routes>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import {Carousel, Row, Col, Button} from "react-bootstrap";
+import {NavLink} from "react-router-dom";
 import slide1 from "../../../../img/slider/slide1.png";
 import slide2 from "../../../../img/slider/slide2.png";
 import slide3 from "../../../../img/slider/slide3.png";
@@ -28,7 +29,9 @@ const Header = () => {
                     <h3 className='text-light'>
                       First slide label carusal item
                     </h3>
-                    <Button variant='light'>Enroll</Button>
+                    <NavLink to='/checkout'>
+                      <Button variant='light'>Enroll</Button>
+                    </NavLink>
                   </div>
                 </Col>
                 <Col md={4} xs={12} className='align'>
@@ -59,7 +62,9 @@ const Header = () => {
                     <h3 className='text-light'>
                       Second slide label carusal item
                     </h3>
-                    <Button variant='light'>Enroll</Button>
+                    <NavLink to='/checkout'>
+                      <Button variant='light'>Enroll</Button>
+                    </NavLink>
                   </div>
                 </Col>
                 <Col md={4} xs={12} className='align'>
@@ -91,7 +96,9 @@ const Header = () => {
                     <h3 className='text-light'>
                       Third slide label carusal item
                     </h3>
-                    <Button variant='light'>Enroll</Button>
+                    <NavLink to='/checkout'>
+                      <Button variant='light'>Enroll</Button>
+                    </NavLink>
                   </div>
                 </Col>
                 <Col md={4} xs={12} className='align'>
@@ -123,7 +130,9 @@ const Header = () => {
                     <h3 className='text-light '>
                       Fourth slide label carusal item
                     </h3>
-                    <Button variant='light'>Enroll</Button>
+                    <NavLink to='/checkout'>
+                      <Button variant='light'>Enroll</Button>
+                    </NavLink>
                   </div>
                 </Col>
                 <Col md={4} xs={12} className='align'>
@@ -155,7 +164,9 @@ const Header = () => {
                     <h3 className='text-light '>
                       Fifth slide label carusal item
                     </h3>
-                    <Button variant='light'>Enroll</Button>
+                    <NavLink to='/checkout'>
+                      <Button variant='light'>Enroll</Button>
+                    </NavLink>
                   </div>
                 </Col>
                 <Col md={4} xs={12} className='align'>
@@ -187,7 +198,9 @@ const Header = () => {
                     <h3 className='text-light '>
                       Sixth slide label carusal item
                     </h3>
-                    <Button variant='light'>Enroll</Button>
+                    <NavLink to='/checkout'>
+                      <Button variant='light'>Enroll</Button>
+                    </NavLink>
                   </div>
                 </Col>
                 <Col md={4} xs={12} className='align'>
