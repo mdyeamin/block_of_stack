@@ -69,7 +69,7 @@ const Navigation = () => {
               </Nav.Link>
               <Nav.Link eventKey={3}>
                 <NavLink
-                  to='/classes'
+                  to='/dashboard'
                   className={({isActive}) =>
                     isActive ? "active" : "nonActive"
                   }

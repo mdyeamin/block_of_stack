@@ -1,7 +1,9 @@
 import React, {useEffect, useState} from "react";
-import {Carousel, Row, Col, Button} from "react-bootstrap";
+import {Carousel, Row, Col} from "react-bootstrap";
 import {NavLink} from "react-router-dom";
 import "./Header.css";
+import {BsArrowRightShort} from "react-icons/bs";
+import {BsFillArrowRightCircleFill} from "react-icons/bs";
 
 const Header = () => {
   const [slideData, setSlideData] = useState([]);
@@ -22,9 +24,15 @@ const Header = () => {
                 <Row>
                   <Col md={8} xs={12} className='align'>
                     <div>
-                      <h3 className='text-light '>{slide?.title}</h3>
+                      <h1 className='text-light text-start w-75'>
+                        {slide?.title}
+                      </h1>
                       <NavLink to={slide?.path}>
-                        <Button variant='light'>Enroll</Button>
+                        <button className='enroll-btn'>
+                          Enroll <BsArrowRightShort className='enroll-icon' />{" "}
+                          
+                          <BsFillArrowRightCircleFill className='enroll-hover-icon' />{" "}
+                        </button>
                       </NavLink>
                     </div>
                   </Col>

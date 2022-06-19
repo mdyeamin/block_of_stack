@@ -33,9 +33,9 @@ const CourseAbout = () => {
               <Row className='justify-content-md-center'>
                 {/* data map */}
                 {aboutText.map((text) => (
-                  <Col md={6} key={text.id}>
+                  <Col md={6} key={text?.id}>
                     <BsStickies />
-                    <p className='text-start m-auto w-75'>{text.title}</p>
+                    <p className='text-start m-auto w-75'>{text?.title}</p>
                   </Col>
                 ))}
 

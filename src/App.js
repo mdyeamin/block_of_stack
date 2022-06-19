@@ -8,19 +8,21 @@ import Resources from "./components/pages/Resources/Resources";
 import Navigation from "./components/pages/Navigation/Navigation";
 import Classes from "./components/pages/Classes/Classes";
 import EnrollNow from "./components/pages/EnrollNow/EnrollNow";
-
+import Footer from "./components/pages/Footer/Footer";
+import "./styles/App.scss";
 function App() {
   return (
     <div className='App'>
-      <Navigation></Navigation>
+      <Navigation />
       <Routes>
         <Route path='/' element={<Home />} />
 
-        <Route path='courses' element={<Courses />} />
-        <Route path='resources' element={<Resources />} />
-        <Route path='classes' element={<Classes />} />
-        <Route path='checkout' element={<EnrollNow />} />
+        <Route path='/courses' element={<Courses />} />
+        <Route path='/resources' element={<Resources />} />
+        <Route path='/dashboard' element={<Classes />} />
+        <Route path='/checkout' element={<EnrollNow />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
