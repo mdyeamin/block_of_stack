@@ -3,53 +3,53 @@ $theme-colors: (
     "info": tomato,
     "danger": teal,
 );
-.enroll-btn{
-    color: #fff;
-    background: gray;
-    border: 0;
-    padding: 10px 40px 10px 20px;
-    border-radius: 20px;
-    position: relative;
-    display: block;
-    transition: .5s;
+// .enroll-btn{
+//     color: #fff;
+//     background: gray;
+//     border: 0;
+//     padding: 10px 40px 10px 20px;
+//     border-radius: 20px;
+//     position: relative;
+//     display: block;
+//     transition: .5s;
     
     
-}
-.enroll-icon{
-   padding: 0;
-   font-size: 32px;
-   padding-bottom: 4px;
-   transition: .5s;
-   position: absolute;  
-}
+// }
+// .enroll-icon{
+//    padding: 0;
+//    font-size: 32px;
+//    padding-bottom: 4px;
+//    transition: .5s;
+//    position: absolute;  
+// }
 
 
-.enroll-btn:hover .enroll-icon{
-    // margin-left: 5px;
-    transition: .5s;
-    display: none;
-}
+// .enroll-btn:hover .enroll-icon{
+//     // margin-left: 5px;
+//     transition: .5s;
+//     display: none;
+// }
 
 
-.enroll-hover-icon{
-    padding: 0;
-   font-size: 32px;
-   padding-bottom: 4px;
-   transition: .5s;
-   position: absolute;
-    display: none;
-}
-.enroll-btn:hover .enroll-hover-icon{
-    display: inline;
+// .enroll-hover-icon{
+//     padding: 0;
+//    font-size: 32px;
+//    padding-bottom: 4px;
+//    transition: .5s;
+//    position: absolute;
+//     display: none;
+// }
+// .enroll-btn:hover .enroll-hover-icon{
+//     display: inline;
     
-        transition: .5s;
-}
+//         transition: .5s;
+// }
 
-// footer 
-.footer-text{
-    display: flex;
-}
-.footer-logo{
-    display: flex;
-    align-items: center;
-}
+// // footer 
+// .footer-text{
+//     display: flex;
+// }
+// .footer-logo{
+//     display: flex;
+//     align-items: center;
+// }

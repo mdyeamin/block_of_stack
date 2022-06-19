@@ -1,0 +1,23 @@
+[
+    {"title":"Module -1: Welcome Video",
+        "id":"headingOne",
+        "dataBsTatger":"#collapseOne",
+        "ariaControls":"collapseOne"
+    },
+    {"title":"Module 0: Orientation. How to get ready for this course",
+        "id":"headingTow",
+        "dataBsTatger":"#collapseTow",
+        "ariaControls":"collapseTow"
+    },
+    {"title":" Module 1: Learn and Explore HTML as a Beginner",
+        "id":"headingThree",
+        "dataBsTatger":"#collapseThree",
+        "ariaControls":"collapseThree"
+    },
+    {"title":"Module 2: Learn and Explore CSS as a Beginner",
+        "id":"headingFour",
+        "dataBsTatger":"#collapseFour",
+        "ariaControls":"collapseFour"
+    }
+    
+]
