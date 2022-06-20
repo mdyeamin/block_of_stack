@@ -90,3 +90,16 @@
   display: flex;
   align-items: center;
 }
+
+/* /anything in the course  */
+.anything-main-area{
+  max-height: 400px;
+  overflow-y: scroll;
+}
+.anything-area{
+  padding:0 20px;
+}
+.anything-item{
+  padding: 6px 0;
+ 
+}
