@@ -1,23 +1,47 @@
 [
     {"title":"Module -1: Welcome Video",
-        "id":"headingOne",
-        "dataBsTatger":"#collapseOne",
-        "ariaControls":"collapseOne"
+        "id":"flush-headingOne",
+        "dataBsTatger":"#flush-collapseOne",
+        "ariaControls":"flush-collapseOne"
     },
     {"title":"Module 0: Orientation. How to get ready for this course",
-        "id":"headingTow",
-        "dataBsTatger":"#collapseTow",
-        "ariaControls":"collapseTow"
+        "id":"flush-headingTwo",
+        "dataBsTatger":"#flush-collapseTwo",
+        "ariaControls":"flush-collapseTwo"
     },
     {"title":" Module 1: Learn and Explore HTML as a Beginner",
-        "id":"headingThree",
-        "dataBsTatger":"#collapseThree",
-        "ariaControls":"collapseThree"
+        "id":"flush-headingThree",
+        "dataBsTatger":"#flush-collapseThree",
+        "ariaControls":"flush-collapseThree"
     },
     {"title":"Module 2: Learn and Explore CSS as a Beginner",
-        "id":"headingFour",
-        "dataBsTatger":"#collapseFour",
-        "ariaControls":"collapseFour"
+        "id":"flush-headingFour",
+        "dataBsTatger":"#flush-collapseFour",
+        "ariaControls":"flush-collapseFour"
+    },
+    {"title":"Module 3: Git, source control, GitHub and hosting",
+        "id":"flush-headingFive",
+        "dataBsTatger":"#flush-collapseFive",
+        "ariaControls":"flush-collapseFive"
+    },
+    {"title":"Module 4: Build a beautiful and professional portfolio",
+        "id":"flush-headingSix",
+        "dataBsTatger":"#flush-collapseSix",
+        "ariaControls":"flush-collapseSix"
+    },
+    {"title":"Module 5: Personal website, build a brand new website",
+        "id":"flush-headingSeven",
+        "dataBsTatger":"#flush-collapseSeven",
+        "ariaControls":"flush-collapseSeven"
+    },
+    {"title":"Module 5.5: [Bonus] Box model, pseudo class, position",
+        "id":"flush-headingEight",
+        "dataBsTatger":"#flush-collapseEight",
+        "ariaControls":"flush-collapseEight"
+    },
+    {"title":"Module 6: HTML 5 Semantic tags, audio, video, table, form",
+        "id":"flush-headingNine",
+        "dataBsTatger":"#flush-collapseNine",
+        "ariaControls":"flush-collapseNine"
     }
-    
 ]
