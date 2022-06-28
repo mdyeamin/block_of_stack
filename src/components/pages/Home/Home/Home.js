@@ -5,6 +5,7 @@ import ManageEnroll from "../ManageEnroll/ManageEnroll";
 import CourseDetails from "../CourseDetails/CourseDetails";
 import CourseAboutAsk from "../CourseAboutAsk/CourseAboutAsk";
 import AnythingInTheCourse from "../AnythingInTheCourse/AnythingInTheCourse"
+import CourseSpecialty from "../CourseSpecialty/CourseSpecialty";
 const Home = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const Home = () => {
       {/* <ManageEnroll /> */}
       <CourseAbout />
       <AnythingInTheCourse/>
+      <CourseSpecialty/>
       {/*  <CourseDetails />
       <CourseAboutAsk/> */}
     </div>
