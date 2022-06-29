@@ -11,6 +11,8 @@ import EnrollNow from "./components/pages/EnrollNow/EnrollNow";
 import Footer from "./components/pages/Footer/Footer";
 import NoMatch from "./components/pages/NoMatch/NoMatch";
 import "./styles/App.scss";
+import One from "./components/pages/Home/One/One";
+import Two from "./components/pages/Home/Two/Two";
 function App() {
   return (
     <div className='App'>
@@ -18,7 +20,10 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route index element={<Home />} />
-        <Route path='home' element={<Home />} />
+        <Route path='home' element={<Home />}>
+          <Route path='one' element={<One />} />
+          <Route path='two' element={<Two />} />
+        </Route>
 
         <Route path='courses' element={<Courses />} />
         <Route path='resources' element={<Resources />} />
