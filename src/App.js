@@ -18,19 +18,16 @@ function App() {
     <div className='App'>
       <Navigation />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route index element={<Home />} />
-        
+        <Route path='/' element={<Home />}>
+          <Route index='one' element={<One />} />
+          <Route path='one' element={<One />} />
+          <Route path='/two' element={<Two />} />
+          <Route path='*' element={<NoMatch />} />
+        </Route>
         <Route path='courses' element={<Courses />} />
         <Route path='resources' element={<Resources />} />
         <Route path='dashboard' element={<Classes />} />
         <Route path='checkout' element={<EnrollNow />} />
-        <Route path='home' element={<Home />}>
-          <Route index element={<One />} />
-          <Route path='one' element={<One />} />
-          <Route path='two' element={<Two />} />
-          <Route path='*' element={<NoMatch />} />
-        </Route>
         <Route path='*' element={<NoMatch />} />
       </Routes>
       <Footer />

@@ -7,8 +7,8 @@ import {Link, Outlet} from "react-router-dom";
 function CourseSpecialty() {
   return (
     <>
-      <Link to='/home/one'>One</Link>
-      <Link to='/home/two'>Two</Link>
+      <Link to='/one'>One</Link>
+      <Link to='/two'>Two</Link>
       <Outlet />
     </>
   );
