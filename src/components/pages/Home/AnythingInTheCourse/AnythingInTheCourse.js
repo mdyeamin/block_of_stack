@@ -1,12 +1,20 @@
 import React, {useEffect, useState} from "react";
+import axios from "axios";
 import {Col, Container, Row} from "react-bootstrap";
 import anythingImg from "../../../../img/slider/slide6.png";
 function AnythingInTheCourse() {
   const [courseAnything, setCourseAnything] = useState([]);
   useEffect(() => {
-    fetch("./courseanything.json")
-      .then((res) => res.json())
-      .then((data) => setCourseAnything(data));
+    // data fetch with axios
+    const getCourseAnythingData = async () => {
+      try {
+        const res = await axios.get("./courseanything.json");
+        setCourseAnything(res.data);
+      } catch (error) {
+        console.log("error", error.message);
+      }
+    };
+    getCourseAnythingData();
   }, []);
   return (
     <div>
