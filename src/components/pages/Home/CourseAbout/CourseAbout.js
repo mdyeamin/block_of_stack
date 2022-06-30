@@ -5,8 +5,8 @@ import courseAboutVideoDemo from "../../../../img/courseAboutImg/courseAbout.png
 import "./CourseAbout.css";
 
 const CourseAbout = () => {
-  // this data fetch with async await try catch
   const [aboutText, setAboutText] = useState([]);
+  // this data fetch with async await and try catch
   useEffect(() => {
     const fetchData = async () => {
       try {
