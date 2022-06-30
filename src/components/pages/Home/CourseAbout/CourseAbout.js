@@ -5,11 +5,19 @@ import courseAboutVideoDemo from "../../../../img/courseAboutImg/courseAbout.png
 import "./CourseAbout.css";
 
 const CourseAbout = () => {
+  // this data fetch with async await try catch
   const [aboutText, setAboutText] = useState([]);
   useEffect(() => {
-    fetch("./CourseAbout.json")
-      .then((res) => res.json())
-      .then((data) => setAboutText(data));
+    const fetchData = async () => {
+      try {
+        const res = await fetch("./CourseAbout.json");
+        const data = await res.json();
+        setAboutText(data);
+      } catch (error) {
+        console.log("error", error, error.message);
+      }
+    };
+    fetchData();
   }, []);
 
   return (
