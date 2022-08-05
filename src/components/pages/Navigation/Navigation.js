@@ -80,7 +80,7 @@ const Navigation = () => {
               </Nav.Link>
             </Nav>
             <img
-              src='https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/179147689_1191143821334064_332752836185178183_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=S4fFKQaULQUAX8-G3hG&tn=otq2IQjy5H9wdSX3&_nc_ht=scontent.fdac5-2.fna&oh=00_AT93FEw4DARfA0tCLsMBNE5uhEYzUOcmJZK4oCMRCDUcpA&oe=62CB9451'
+              src='https://scontent.fdac136-1.fna.fbcdn.net/v/t1.6435-9/179147689_1191143821334064_332752836185178183_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=RUo0oeF4KtQAX-OyrSl&tn=otq2IQjy5H9wdSX3&_nc_ht=scontent.fdac136-1.fna&oh=00_AT_dbto54LvOPRRNYKp_RQsVPgxKxkm8OxK8C_9YuuT7Qg&oe=6312C551'
               width='40'
               height='40'
               className='d-inline-block align-top, border rounded-circle'
