@@ -11,17 +11,17 @@ import EnrollNow from "./components/pages/EnrollNow/EnrollNow";
 import Footer from "./components/pages/Footer/Footer";
 import NoMatch from "./components/pages/NoMatch/NoMatch";
 import "./styles/App.scss";
-import One from "./components/pages/Home/One/One";
-import Two from "./components/pages/Home/Two/Two";
+import Specialty from "./components/pages/Home/Specialty/Specialty";
+import CourseSystem from "./components/pages/Home/CourseSystem/CourseSystem";
 function App() {
   return (
     <div className='App'>
       <Navigation />
       <Routes>
         <Route path='/' element={<Home />}>
-          <Route index='one' element={<One />} />
-          <Route path='one' element={<One />} />
-          <Route path='/two' element={<Two />} />
+          <Route index='specialty' element={<Specialty />} />
+          <Route path='specialty' element={<Specialty />} />
+          <Route path='/courseSystem' element={<CourseSystem />} />
           <Route path='*' element={<NoMatch />} />
         </Route>
         <Route path='courses' element={<Courses />} />
